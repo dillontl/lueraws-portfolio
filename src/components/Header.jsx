@@ -169,7 +169,11 @@ export default function Header() {
                 Contact
               </Badge>
               <Box>
-                <HookForm />
+                {/*  
+             <HookForm /> 
+             temporary removal until I feel like creating SMTP for contact form
+             */}
+                <a href="mailto:dillon@lueraws.com">Click Here!</a>
               </Box>
             </Box>
           </Stack>
