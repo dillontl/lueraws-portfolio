@@ -65,7 +65,7 @@ export default function Header() {
                 lineHeight="110%"
                 fontFamily="mono"
               >
-                Hello, I am Dillon! <span className="spider"> 🕷</span>
+                Hello, I am Dillon! 
               </Heading>
             </Box>
             <Box alignItems="center">

@@ -102,7 +102,7 @@ export default function HookForm() {
           placeholder="Message"
           {...register('message', {
             required: 'I need to know what you want.',
-            minLength: { value: 10, message: 'Minimum length should be 4' },
+            minLength: { value: 10, message: 'Minimum length should be 10' },
           })}
         />
         <FormErrorMessage>
