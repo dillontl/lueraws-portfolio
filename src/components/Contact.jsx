@@ -95,6 +95,22 @@ export default function HookForm() {
         </FormErrorMessage>
       </FormControl>
 
+      <FormControl isInvalid={errors.message}>
+        <FormLabel htmlFor="Message">Message</FormLabel>
+        <Input
+          id="message"
+          placeholder="Message"
+          {...register('message', {
+            required: 'I need to know what you want.',
+            minLength: { value: 10, message: 'Minimum length should be 4' },
+          })}
+        />
+        <FormErrorMessage>
+          {errors.message && errors.message.message}
+        </FormErrorMessage>
+      </FormControl>
+
+
       <Button mt={4} isLoading={isSubmitting} type="submit">
         Submit
       </Button>
