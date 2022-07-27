@@ -180,3 +180,41 @@ img.chakra-image {
     transform: rotate(0deg);
   }
 }
+
+/* mobile styles */
+/* 2340x1080 pixels at 476ppi */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .css-kvhqdb {
+    padding-top: 35px;
+  }
+  .css-1ohf3zm {
+    display: flow-root;
+    justify-content: left;
+    flex-direction: row;
+    font-size: 3.2rem;
+  }
+}
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  .css-kvhqdb {
+    padding-top: 35px;
+  }
+  .css-1ohf3zm {
+    display: flow-root;
+    justify-content: left;
+    flex-direction: row;
+    font-size: 3.2rem;
+  }
+}
+
+/* 2532x1170 pixels at 460ppi */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .css-kvhqdb {
+    padding-top: 35px;
+  }
+  .css-1ohf3zm {
+    display: flow-root;
+    justify-content: left;
+    flex-direction: row;
+    font-size: 3.2rem;
+  }
+}

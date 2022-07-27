@@ -77,7 +77,7 @@ export default function Header() {
                 boxSizing="content-box"
               >
                 <span className="highlighted-word">USAF Veteran</span>,{' '}
-                <span className="highlighted-word">full-stack developer</span>,{' '}
+                <span className="highlighted-word">fullstack developer</span>,{' '}
                 <span className="highlighted-word">
                   <br />
                   blockchain engineer
